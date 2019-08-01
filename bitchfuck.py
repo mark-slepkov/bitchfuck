@@ -60,7 +60,7 @@ def process(data):
     for op in ops:
         if op not in PERMITTED_KEYWS:
             print(op)
-            raise ValueError(f'Parsing error nigga bitch. yo commands are shit fuck nigga man')
+            raise ValueError('Parsing error nigga bitch. yo commands are shit fuck nigga man')
     return ops
 
 
